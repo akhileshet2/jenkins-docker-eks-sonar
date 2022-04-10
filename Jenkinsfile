@@ -33,7 +33,7 @@ pipeline {
           stage("SonarQube analysis") {
             agent any
             steps {
-              withSonarQubeEnv('sonar') {
+              withSonarQubeEnv('jenkins-sonar') {
                 sh 'mvn clean package sonar:sonar'
               }
             }
