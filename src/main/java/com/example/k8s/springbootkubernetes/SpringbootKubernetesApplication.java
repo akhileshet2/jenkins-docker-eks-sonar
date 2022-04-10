@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringbootKubernetesApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringbootKubernetesApplication.class, args);
+		SpringApplication.run(SpringbootKubernetesApplication.class,args);
 	}
 	
 	
